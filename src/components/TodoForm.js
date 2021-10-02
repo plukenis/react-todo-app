@@ -10,10 +10,10 @@ const handleChange = e => {
 const handleSumbmit = e => {
     e.preventDefault();
 
-    // props.onSumbit({
-    //     id: Math.floor(Math.random() * 10000),
-    //     text: input
-    // });
+    props.onSumbit({
+        id: Math.floor(Math.random() * 10000),
+        text: input
+    });
 
     setInput('');
 };
